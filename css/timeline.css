@@ -1,0 +1,112 @@
+.timelineTitle {
+  width: 10em;
+  color: #000080;
+  font-size: 1.5em;
+  border-bottom: 3px solid #000080;
+  padding-bottom: 3px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.timeline {
+  position: relative;
+  width: 90%;
+  margin-left: 10%;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background: #000080;
+  top: 0;
+  bottom: 0;
+  margin-left: -1px;
+}
+
+.TLcontainer {
+  padding: 15px 30px;
+  position: relative;
+}
+
+
+.TLcontainer::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 3px solid #000080;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.TLcontainer.right::after {
+  left: -8px;
+}
+
+.TLcontainer::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #000080;
+  z-index: 1;
+}
+
+.TLcontainer.right::before {
+  left: 8px;
+}
+
+.TLcontainer .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(30%);
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000080;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.TLcontainer.right .date {
+  left: -75px;
+}
+
+.TLcontainer .icon {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding: 5px 0;
+  top: calc(50% - 25px);
+  border: 3px solid #000080;
+  border-radius: 40px;
+  text-align: center;
+  z-index: 1;
+}
+
+.iconSVG {
+  height: 30px;
+  width:30px;
+
+}
+
+.TLcontainer.right .icon {
+  left: 37px;
+}
+
+.TLcontainer.right .content {
+  padding: 0px 0px 0px 69px;
+  font-size: 1em;
+}
