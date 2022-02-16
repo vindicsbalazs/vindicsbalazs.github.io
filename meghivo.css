@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Parisienne', cursive
+}
+
+* {
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
+
+.url {
+  font-family: 'Blinker', sans-serif;
+}
+
+.page {
+   font-size: 1.8em;
+   width: 21cm;
+   min-height: 29.7cm;
+   padding: 2cm;
+   padding-top: 0px;
+   margin: 1cm auto;
+   border: 1px #D3D3D3 solid;
+   border-radius: 5px;
+   background: white;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#pageNone{
+  background-image: url("flower_bottom.svg") !important;
+  background-size: 10cm !important;
+  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+}
+
+#page2 .forceDown {
+  height: 278px
+}
+
+#page3 .forceDown {
+  height: 82px
+}
+
+#qrcode {
+  height: 5em;
+  width: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainTitle {
+  font-size: 2.5em;
+  color: #000080;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 0.1em;
+}
+
+#page2 .title {
+  margin-top: 3em;
+}
+
+.title {
+  font-size: 1.2em;
+  color: #000080;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.circlePhoto {
+  border: 3px solid #000080;
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+}
+
+.paragraph {
+  margin-bottom: 1em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.highlight {
+  font-size: 1.05em;
+  color: #000080;
+  font-weight: bold;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+
+
+.quote {
+  margin-top: 4em;
+  text-align: right;
+}
+
+.sign {
+  margin-top: 4em;
+  text-align: right;
+}
+
+.timelineTitle {
+  width: 45%;
+  color: #000080;
+  font-size: 1.5em;
+  border-bottom: 3px solid #000080;
+  padding-bottom: 3px;
+  margin-top: 3.5em;
+}
+
+.address {
+  font-size: 0.9em;
+  color: #000080;
+  font-weight: bold;
+}
+
+#page4 .title{
+  font-size: 1.5em;
+  margin-top: 3em;
+}
+
+#page4 #honlap{
+  text-align: center;
+  margin-top: 3em;
+}
+
+#page4 #url{
+  text-align: center;
+}
+
+@page {
+   size: A4;
+   margin: 0;
+}
+@media print {
+   .page {
+       margin: 0;
+       border: initial;
+       border-radius: initial;
+       width: initial;
+       min-height: initial;
+       box-shadow: initial;
+       background: initial;
+       page-break-after: always;
+       -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+       color-adjust: exact !important;  /*Firefox*/
+   }
+}
+
+.frameup {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.timeline {
+  position: relative;
+  width: 90%;
+  margin-left: 10%;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background: #000080;
+  top: 0;
+  bottom: 0;
+  margin-left: -1px;
+}
+
+.container {
+  padding: 15px 30px;
+  position: relative;
+}
+
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 3px solid #000080;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: #000080;
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 0.6em;
+  font-weight: bold;
+  color: #000080;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.container.right .date {
+  left: -75px;
+}
+
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding: 5px 0;
+  top: calc(50% - 25px);
+  border: 3px solid #000080;
+  border-radius: 40px;
+  text-align: center;
+  z-index: 1;
+}
+
+.iconSVG {
+  height: 30px;
+  width:30px;
+
+}
+
+.container.right .icon {
+  left: 37px;
+}
+
+.container.right .content {
+  padding: 0px 0px 0px 69px;
+  font-size: 1em;
+}
