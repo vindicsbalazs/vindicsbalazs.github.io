@@ -18,3 +18,10 @@ body {
 nav li a {
   font-size: 1.2em;
 }
+
+.gift-quote {
+  color: #000080;
+  margin-top: 50px;
+  font-size: 3.5em;
+  font-family: 'Parisienne', cursive;
+}
