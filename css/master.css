@@ -25,9 +25,13 @@ nav li a {
   font-family: 'Parisienne', cursive;
 }
 
-@media only screen {
+.gift-quote p {
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 767px) {
   .gift-quote {
     margin-top: 50px;
-    font-size: 3.5em;
+    font-size: 2em;
   }
 }
