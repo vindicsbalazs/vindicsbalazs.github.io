@@ -20,8 +20,14 @@ nav li a {
 }
 
 .gift-quote {
-  color: #000080;
   margin-top: 50px;
   font-size: 3.5em;
   font-family: 'Parisienne', cursive;
+}
+
+@media only screen {
+  .gift-quote {
+    margin-top: 50px;
+    font-size: 3.5em;
+  }
 }
