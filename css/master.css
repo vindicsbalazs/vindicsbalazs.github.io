@@ -29,6 +29,11 @@ nav li a {
   margin-bottom: 0px;
 }
 
+#my_form {
+  width: 100%;
+  height: 2311px;
+}
+
 @media only screen and (max-width: 767px) {
   .gift-quote {
     margin-top: 50px;
@@ -37,4 +42,10 @@ nav li a {
     padding-left: auto;
     padding-right: auto;
   }
+
+  #my_form {
+    width: 100%;
+    height: 2551px;
+  }
+
 }
