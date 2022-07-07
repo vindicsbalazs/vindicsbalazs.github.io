@@ -31,7 +31,7 @@ nav li a {
 
 #my_form {
   width: 100%;
-  height: 2311px;
+  height: 2551px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -42,10 +42,4 @@ nav li a {
     padding-left: auto;
     padding-right: auto;
   }
-
-  #my_form {
-    width: 100%;
-    height: 2551px;
-  }
-
 }
