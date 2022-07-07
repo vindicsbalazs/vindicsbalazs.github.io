@@ -29,9 +29,14 @@ nav li a {
   margin-bottom: 0px;
 }
 
+#my_form_container {
+  text-align: center;
+}
+
 #my_form {
+  margin-top: 50px;
   width: 100%;
-  height: 2560px;
+  height: 3000px;
 }
 
 @media only screen and (max-width: 767px) {
