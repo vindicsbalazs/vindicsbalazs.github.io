@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
     <!-- My CSS -->
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/timeline.css">
@@ -48,83 +49,274 @@
       </div>
     </nav>
     <div class="container">
-      <h1>Program</h1>
-      <div class="timelineTitle">
-        Nagy Napunk
-      </div>
-      <div class="timeline">
-        <div class="TLcontainer right">
-          <div class="date">15:00</div>
-          <div class="icon"> <img class=iconSVG src="sources/church.svg" alt=""> </div>
-          <div class="content">
-            Esküvő; Evangélikus templom.<br><span class="address">7200 Dombóvár, Bezérdj utca 1./a</span>
-          </div>
-        </div>
-        <div class="TLcontainer right">
-          <div class="date">16:00</div>
-          <div class="icon"> <img class=iconSVG src="sources/camera.svg" alt=""> </div>
-          <div class="content">
-            Állófogadás - közben csoportos fotózás
-          </div>
-        </div>
-        <div class="TLcontainer right">
-          <div class="date">17:30</div>
-          <div class="icon"> <img class=iconSVG src="sources/car.svg" alt=""> </div>
-          <div class="content">
-            Megérkezés a lakodalom helyszínére<br> <span class="address">7677 Orfű, Kilátó utca 93.</span>
+      <h1>Program - 2022.09.24</h1>
+      <div class="accordion" id="accordionProgram">
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingWedding">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWedding" aria-expanded="false" aria-controls="collapseWedding">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-6 col-sm-3">
+                    <div class="icon"> <img class="iconSVG" src="sources/church.svg" alt=""> </div>
+                  </div>
+                  <div class="col col-6 col-sm-3 order-sm-3">
+                    <div class="container">
+                      <div class="time">15:00</div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-sm-6 order-sm-2">
+                    <div class="container">
+                      <div class="title">Esküvő</div>
+                    </div>
+                  </div>
+                </div class="row">
+              </div>
+            </button>
+          </h2>
+          <div id="collapseWedding" class="accordion-collapse collapse" aria-labelledby="headingWedding" data-bs-parent="#accordionProgram">
+            <div class="accordion-body">
+              Az esküvő a dombóvári Evangélikus templomban lesz.
+            </div>
           </div>
         </div>
 
-        <div class="TLcontainer right">
-          <div class="date">18:00</div>
-          <div class="icon"> <img class=iconSVG src="sources/champagne.svg" alt=""> </div>
-          <div class="content">
-            Az ifjú pár érkezése, koccintás
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingPhoto">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePhoto" aria-expanded="false" aria-controls="collapsePhoto">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-6 col-sm-3">
+                    <div class="icon"> <img class="iconSVG" src="sources/camera.svg" alt=""> </div>
+                  </div>
+                  <div class="col col-6 col-sm-3 order-sm-3">
+                    <div class="container">
+                      <div class="time">16:00</div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-sm-6 order-sm-2">
+                    <div class="container">
+                      <div class="title">Csoportos fotózás</div>
+                    </div>
+                  </div>
+                </div class="row">
+              </div>
+            </button>
+          </h2>
+          <div id="collapsePhoto" class="accordion-collapse collapse" aria-labelledby="headingPhoto" data-bs-parent="#accordionProgram">
+            <div class="accordion-body">
+              -
+            </div>
           </div>
         </div>
 
-        <div class="TLcontainer right">
-          <div class="date">19:00</div>
-          <div class="icon"> <img class=iconSVG src="sources/dinner.svg" alt=""> </div>
-          <div class="content">
-            Vacsora
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingArrive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseArrive" aria-expanded="false" aria-controls="collapseArrive">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-6 col-sm-3">
+                    <div class="icon"> <img class="iconSVG" src="sources/car.svg" alt=""> </div>
+                  </div>
+                  <div class="col col-6 col-sm-3 order-sm-3">
+                    <div class="container">
+                      <div class="time">17:30</div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-sm-6 order-sm-2">
+                    <div class="container">
+                      <div class="title">Megérkezés a lakodalom helyszínére</div>
+                    </div>
+                  </div>
+                </div class="row">
+              </div>
+            </button>
+          </h2>
+          <div id="collapseArrive" class="accordion-collapse collapse" aria-labelledby="headingArrive" data-bs-parent="#accordionProgram">
+            <div class="accordion-body">
+              -
+            </div>
           </div>
         </div>
 
-        <div class="TLcontainer right">
-          <div class="date">21:00</div>
-          <div class="icon"> <img class=iconSVG src="sources/game.svg" alt=""> </div>
-          <div class="content">
-            Játék
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingChampagne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChampagne" aria-expanded="false" aria-controls="collapseChampagne">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-6 col-sm-3">
+                    <div class="icon"> <img class="iconSVG" src="sources/champagne.svg" alt=""> </div>
+                  </div>
+                  <div class="col col-6 col-sm-3 order-sm-3">
+                    <div class="container">
+                      <div class="time">18:00</div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-sm-6 order-sm-2">
+                    <div class="container">
+                      <div class="title">Koccintás</div>
+                    </div>
+                  </div>
+                </div class="row">
+              </div>
+            </button>
+          </h2>
+          <div id="collapseChampagne" class="accordion-collapse collapse" aria-labelledby="headingChampagne" data-bs-parent="#accordionProgram">
+            <div class="accordion-body">
+              -
+            </div>
           </div>
         </div>
 
-        <div class="TLcontainer right">
-          <div class="date">22:00</div>
-          <div class="icon"> <img class=iconSVG src="sources/dancing.svg" alt=""> </div>
-          <div class="content">
-            Nyitótánc
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingDinner">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDinner" aria-expanded="false" aria-controls="collapseDinner">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-6 col-sm-3">
+                    <div class="icon"> <img class="iconSVG" src="sources/dinner.svg" alt=""> </div>
+                  </div>
+                  <div class="col col-6 col-sm-3 order-sm-3">
+                    <div class="container">
+                      <div class="time">19:00</div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-sm-6 order-sm-2">
+                    <div class="container">
+                      <div class="title">Vacsora</div>
+                    </div>
+                  </div>
+                </div class="row">
+              </div>
+            </button>
+          </h2>
+          <div id="collapseDinner" class="accordion-collapse collapse" aria-labelledby="headingDinner" data-bs-parent="#accordionProgram">
+            <div class="accordion-body">
+              -
+            </div>
           </div>
         </div>
 
-        <div class="TLcontainer right">
-          <div class="date">00:00</div>
-          <div class="icon"> <img class=iconSVG src="sources/cake.svg" alt=""> </div>
-          <div class="content">
-            Torta, éjféli vacsora
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingGame">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGame" aria-expanded="false" aria-controls="collapseGame">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-6 col-sm-3">
+                    <div class="icon"> <img class="iconSVG" src="sources/game.svg" alt=""> </div>
+                  </div>
+                  <div class="col col-6 col-sm-3 order-sm-3">
+                    <div class="container">
+                      <div class="time">21:00</div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-sm-6 order-sm-2">
+                    <div class="container">
+                      <div class="title">Játék</div>
+                    </div>
+                  </div>
+                </div class="row">
+              </div>
+            </button>
+          </h2>
+          <div id="collapseGame" class="accordion-collapse collapse" aria-labelledby="headingGame" data-bs-parent="#accordionProgram">
+            <div class="accordion-body">
+              -
+            </div>
           </div>
         </div>
 
-        <div class="TLcontainer right">
-          <div class="date">01:00</div>
-          <div class="icon"> <img class=iconSVG src="sources/heels.svg" alt=""> </div>
-          <div class="content">
-            Menyecsketánc
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingDance">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDance" aria-expanded="false" aria-controls="collapseDance">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-6 col-sm-3">
+                    <div class="icon"> <img class="iconSVG" src="sources/dancing.svg" alt=""> </div>
+                  </div>
+                  <div class="col col-6 col-sm-3 order-sm-3">
+                    <div class="container">
+                      <div class="time">22:00</div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-sm-6 order-sm-2">
+                    <div class="container">
+                      <div class="title">Nyitótánc</div>
+                    </div>
+                  </div>
+                </div class="row">
+              </div>
+            </button>
+          </h2>
+          <div id="collapseDance" class="accordion-collapse collapse" aria-labelledby="headingDance" data-bs-parent="#accordionProgram">
+            <div class="accordion-body">
+              -
+            </div>
           </div>
         </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingCake">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCake" aria-expanded="false" aria-controls="collapseCake">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-6 col-sm-3">
+                    <div class="icon"> <img class="iconSVG" src="sources/cake.svg" alt=""> </div>
+                  </div>
+                  <div class="col col-6 col-sm-3 order-sm-3">
+                    <div class="container">
+                      <div class="time">00:00</div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-sm-6 order-sm-2">
+                    <div class="container">
+                      <div class="title">Tortavágás, éjféli vacsora</div>
+                    </div>
+                  </div>
+                </div class="row">
+              </div>
+            </button>
+          </h2>
+          <div id="collapseCake" class="accordion-collapse collapse" aria-labelledby="headingCake" data-bs-parent="#accordionProgram">
+            <div class="accordion-body">
+              -
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingDance2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDance2" aria-expanded="false" aria-controls="collapseDance2">
+              <div class="container">
+                <div class="row">
+                  <div class="col col-6 col-sm-3">
+                    <div class="icon"> <img class="iconSVG" src="sources/heels.svg" alt=""> </div>
+                  </div>
+                  <div class="col col-6 col-sm-3 order-sm-3">
+                    <div class="container">
+                      <div class="time">01:00</div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-sm-6 order-sm-2">
+                    <div class="container">
+                      <div class="title">Menyecsketánc</div>
+                    </div>
+                  </div>
+                </div class="row">
+              </div>
+            </button>
+          </h2>
+          <div id="collapseDance2" class="accordion-collapse collapse" aria-labelledby="headingDance2" data-bs-parent="#accordionProgram">
+            <div class="accordion-body">
+              -
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>

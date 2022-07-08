@@ -1,7 +1,7 @@
 body {
   font-family: 'Blinker', sans-serif;
+  margin-bottom: 3em;
 }
-
 
 .navbar-brand {
   font-size: 2em;
@@ -16,6 +16,69 @@ body {
 }
 
 nav li a {
+  font-size: 1.2em;
+}
+
+#index #title {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#index #pageMapList {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#index .card {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  padding: 5px 0;
+  border: 3px solid #000080;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.accordion-button {
+  padding: 3px;
+}
+
+.col {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.col div {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.iconSVG {
+  height: 30px;
+  width:30px;
+}
+
+.time {
+  font-size: 1.2em;
+  border-bottom: 2px solid #000080;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.2em;
+}
+
+.carousel-caption {
+  text-shadow: 2px 2px #000080;
+}
+
+.carousel-caption {
   font-size: 1.2em;
 }
 
