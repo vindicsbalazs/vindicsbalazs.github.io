@@ -29,12 +29,37 @@ nav li a {
   margin-bottom: 20px;
 }
 
+#index h4 {
+    text-align: justify;
+}
+
 #index .card {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-.icon {
+#index .middle {
+  line-height: 50px;
+  height: 50px;
+}
+
+#index .middle div {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#index .icon {
+  text-align: center;
+}
+
+#index .iconSVG {
+  height: 30px;
+  width:30px;
+  margin-right: 20px;
+}
+
+#program .icon {
   width: 50px;
   height: 50px;
   padding: 5px 0;
@@ -47,13 +72,13 @@ nav li a {
   padding: 3px;
 }
 
-.col {
+#program .col {
   line-height: 50px;
   height: 50px;
   text-align: center;
 }
 
-.col div {
+#program .col div {
   line-height: 1.5;
   display: inline-block;
   vertical-align: middle;
