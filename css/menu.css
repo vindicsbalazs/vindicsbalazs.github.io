@@ -1,0 +1,82 @@
+#mainContainer {
+  font-family: 'Parisienne', cursive
+}
+
+.header {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 2.4em;
+}
+
+.container {
+  margin: auto;
+}
+
+.page {
+  display: table;
+  width: 800px;
+}
+
+.col {
+  display: table-cell;
+  width: 400px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.header .frame_svg {
+    width: 250px;
+}
+
+.groupName {
+  display: inline-block;
+  width: 100%;
+}
+
+.groupName h2 {
+  float: left;
+  color: #000080;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.groupName .icon {
+  float: right;
+  margin-top: 10px;
+  width: 1.4em;
+}
+
+.text .list {
+  font-family: 'Blinker', sans-serif;
+  font-size: 1.1em;
+  margin-left: 1em;
+  transform: translate(0,-8px);
+}
+
+.food {
+  width: 100%;
+}
+
+.free {
+  float: right;
+}
+
+.name {
+  float: left;
+}
+
+.detail {
+  width: 100%;
+  margin-left: 12px;
+  float: left;
+  font-size: 0.8em;
+}
+
+.noneIcon {
+  width: 0.5em;
+}
