@@ -131,6 +131,11 @@ nav li a {
   height: 3000px;
 }
 
+.gift_info {
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
 @media only screen and (max-width: 767px) {
   .gift-quote {
     margin-top: 50px;
