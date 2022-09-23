@@ -150,6 +150,7 @@ for (var i = 0; i < names.length; i++) {
 
 var selectTable = function(a,b) {
   return function() {
+    window.parent.scrollTo(0,0)
     document.getElementById("name_input").value = ""
     placeId = "t"+a+"p"+b
     for (var i = 14; i > 0; i--) {
@@ -173,6 +174,7 @@ var selectTable = function(a,b) {
     document.getElementById("selectedTable").innerHTML = a
     document.getElementById("selectedPlace").innerHTML = b
   };
+
 }
 
 room = document.getElementById("room")
