@@ -9,6 +9,13 @@ groups = [
     ]
   },
   {
+    "groupName": "Tanuk",
+    "groupList":[
+      {"nick" : "Benő", "name" : "Kelemen Bence"},
+      {"nick" : "Szotyi", "name" : "Tóbel Szonja"}
+    ]
+  },
+  {
     "groupName": "Tóth család",
     "groupList":[
       {"nick" : "Sanyiapa", "name" : "Tóth Sándor"},
@@ -37,8 +44,8 @@ groups = [
       {"nick" : "Gellért", "name" : "Abai Gellért Hunor"},
       {"nick" : "Virág", "name" : "Abainé Tóth Virág"},
       {"nick" : "Máté", "name" : "Abainé Máté Csaba"},
-      {"nick" : "Ambrus!", "name" : "Tamás Ambrus"},
-      {"nick" : "Orsi!", "name" : "Abai Orsolya"}
+      {"nick" : "Ambrus", "name" : "Tamás Ambrus"},
+      {"nick" : "Orsi", "name" : "Abai Orsolya"}
     ]
   },
   {
@@ -78,7 +85,7 @@ groups = [
     "groupList":[
       {"nick" : "István", "name" : "Dr. Nagy István"},
       {"nick" : "Rozi", "name" : "Zilizi Rozália"},
-      {"nick" : "Tamás!", "name" : "Székedi Tamás"},
+      {"nick" : "Tamás", "name" : "Székedi Tamás"},
     ]
   },
   {
@@ -98,6 +105,7 @@ groups = [
     "groupList":[
       {"nick" : "Zsófi", "name" : "Balikó Zsófia"},
       {"nick" : "Rózi", "name" : "Balikó Róza"},
+      {"nick" : "Kristóf", "name" : "Szabó Kristóf"},
       {"nick" : "Kis Tomi", "name" : "Balikó Tamás"},
       {"nick" : "Aliz", "name" : "Kiss Aliz"},
       {"nick" : "Zozó", "name" : "Balikó Zoltán"},
@@ -148,7 +156,7 @@ groups = [
       {"nick" : "Blani", "name" : "Kiss-Tóth Blanka"},
       {"nick" : "Hani", "name" : "Kiss-Tóth Hanna"},
       {"nick" : "Dani", "name" : "Bús Dániel"},
-      {"nick" : "Kati néni!", "name" : "Dr. Pálfalvi Sándorné Katalin"},
+      {"nick" : "Kati néni", "name" : "Dr. Pálfalvi Sándorné Katalin"},
       {"nick" : "Márti", "name" : "Győriné Pálfalvi Márta"},
       {"nick" : "Csaba", "name" : "Győri Csaba"},
       {"nick" : "Máté", "name" : "Győri Máté"},
@@ -170,11 +178,9 @@ groups = [
     "groupList":[
       {"nick" : "Zsuzsa néni", "name" : "Fazekas Gáspárné"},
       {"nick" : "Gazsi bácsi", "name" : "Fazekas Gáspár"},
-      {"nick" : "Sanyi!", "name" : "Vasvári Sándor"},
+      {"nick" : "Sanyi", "name" : "Vasvári Sándor"},
       {"nick" : "Kati néni", "name" : "Tarrné Naszádos Katalin"},
       {"nick" : "Imre bácsi", "name" : "Tarr Imre"},
-      {"nick" : "Nóri", "name" : "Csüllög Nóra"},
-      {"nick" : "Andris!", "name" : "Szabó András"},
       {"nick" : "Berkó", "name" : "Berkovics Imre"},
       {"nick" : "Zsuzsi", "name" : "Vajda Zsuzsi"},
       {"nick" : "Jani bácsi", "name" : "Zemen János"}
@@ -195,7 +201,7 @@ groups = [
       {"nick" : "Sziszi", "name" : "Tamás Szilárd"},
       {"nick" : "Andi", "name" : "Tamás Szilárdné"},
       {"nick" : "Zsófi", "name" : "Tamás Zsófia"},
-      {"nick" : "Dóri!", "name" : "Börcsök Dóra"},
+      {"nick" : "Dóri", "name" : "Börcsök Dóra"},
       {"nick" : "Dávid", "name" : "Bakos Dávid"},
       {"nick" : "Dóri", "name" : "Tonács Dóra"},
       {"nick" : "Gréti", "name" : "Harmati Gréta"},

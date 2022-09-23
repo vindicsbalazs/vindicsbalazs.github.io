@@ -58,16 +58,8 @@
   transform: translate(0,-8px);
 }
 
-.food {
-  width: 100%;
-}
-
 .free {
-  float: right;
-}
-
-.name {
-  float: left;
+  text-align: right;
 }
 
 .detail {
@@ -79,4 +71,10 @@
 
 .noneIcon {
   width: 0.5em;
+}
+
+.break {
+    width: 100%
+    height: 20px;
+    border: 1px solid black;
 }

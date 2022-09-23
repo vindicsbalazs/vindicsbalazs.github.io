@@ -62,7 +62,6 @@ names = [
   {"nick" : "Lilike", "name" : "Pelcz Lili", "table":9, "place":8},
   {"nick" : "Zsani", "name" : "Beke Zsanett", "table":9, "place":9},
   {"nick" : "Réka", "name" : "Máté Réka", "table":9, "place":10},
-  {"nick" : "Jana", "name" : "Jana Marjanović", "table":8, "place":1},
   {"nick" : "Márkiboy", "name" : "Vörös Márk", "table":8, "place":2},
   {"nick" : "Bácska", "name" : "Bácskai Bence", "table":8, "place":3},
   {"nick" : "Benő", "name" : "Kelemen Bence", "table":8, "place":4},
