@@ -5,59 +5,53 @@ names = [
   // {"nick" : "Gyopszianya", "name" : "Soós Gyopár", "table":0, "place":6},
   // {"nick" : "Peti (Apa)", "name" : "Vindics Péter", "table":0, "place":1},
   // {"nick" : "Juditka (Anya)", "name" : "Vindics Péterné", "table":0, "place":2},
-
-  {"nick" : "Szabi", "name" : "Kiss Szabolcs", "table":14, "place":2},
-  {"nick" : "Gréti", "name" : "Farkas Gréti", "table":14, "place":4},
-  {"nick" : "Csani", "name" : "Kiss Csanád", "table":14, "place":6},
-  {"nick" : "Eszti", "name" : "Kissné Magyarfalvi Eszter", "table":14, "place":8},
-  {"nick" : "Annamari", "name" : "Vörös Annamária", "table":14, "place":10},
-  {"nick" : "Kristóf", "name" : "Kéri Kristóf", "table":14, "place":1},
-  {"nick" : "Kozi", "name" : "Kozák Bence", "table":14, "place":3},
-  {"nick" : "Valentin", "name" : "Ács Valentin", "table":14, "place":5},
-  {"nick" : "Dalma", "name" : "Gelencsér Dalma", "table":14, "place":7},
-  {"nick" : "Barnus", "name" : "Vissi Barnabás", "table":14, "place":9},
-
-
-  {"nick" : "Szabina", "name" : "Imre Szabina", "table":13, "place":1},
-  {"nick" : "Ricsi", "name" : "Potondi Richárd", "table":13, "place":2},
-  {"nick" : "Anna", "name" : "Pataki Anna", "table":13, "place":3},
-  {"nick" : "Viki", "name" : "Jakab Viktória", "table":13, "place":4},
-  {"nick" : "Henrik", "name" : "Seres Henrik", "table":13, "place":5},
-  {"nick" : "Dávid", "name" : "Pataki Dávid", "table":13, "place":7},
-  {"nick" : "Marci", "name" : "Pápai Márton", "table":13, "place":8},
-  {"nick" : "Kinga", "name" : "Ohn Kinga", "table":13, "place":9},
-  {"nick" : "Dárius", "name" : "Farkas Dárius", "table":13, "place":10},
-
-  {"nick" : "Edit", "name" : "Miklós Edit", "table":12, "place":9},
-  {"nick" : "Tomi", "name" : "Miklós Tamás", "table":12, "place":7},
-  {"nick" : "Atitiszi", "name" : "Kutas Attila", "table":12, "place":5},
-  {"nick" : "Sziszi", "name" : "Tamás Szilárd", "table":12, "place":3},
-  {"nick" : "Andi", "name" : "Tamás Szilárdné", "table":12, "place":1},
-  {"nick" : "Kriszti", "name" : "Dr. Varga Tamásné", "table":12, "place":10},
-  {"nick" : "Jembi", "name" : "Dr. Varga Tamás", "table":12, "place":8},
-  {"nick" : "Géza bácsi", "name" : "Magyarfalvi Géza", "table":12, "place":6},
-  {"nick" : "Kriszti néni", "name" : "Magyarfalvi Krisztina", "table":12, "place":4},
-
-  {"nick" : "Bálintka", "name" : "Szinte Bálint", "table":11, "place":1},
-  {"nick" : "Márkiboy", "name" : "Vörös Márk", "table":11, "place":2},
-  {"nick" : "Bácska", "name" : "Bácskai Bence", "table":11, "place":3},
-  {"nick" : "Benő", "name" : "Kelemen Bence", "table":11, "place":4},
-  {"nick" : "Réka", "name" : "Faragó Réka", "table":11, "place":5},
-  {"nick" : "Nóri", "name" : "Csiszár Nóra", "table":11, "place":7},
-  {"nick" : "Csabi", "name" : "Matkó Csaba", "table":11, "place":8},
-  {"nick" : "Ricsi", "name" : "Süli Richárd", "table":11, "place":9},
-  {"nick" : "Fanni", "name" : "Barna Fanni", "table":11, "place":10},
-
-  {"nick" : "Bálintka", "name" : "Balás Bálint", "table":10, "place":1},
-  {"nick" : "Etelka", "name" : "Dr. Balásné Rozs Etelka", "table":10, "place":2},
-  {"nick" : "Bandi", "name" : "Balás Endre", "table":10, "place":3},
-  {"nick" : "Ei Mama", "name" : "Balás Endréné", "table":10, "place":4},
-  {"nick" : "Papa", "name" : "Balás Endre", "table":10, "place":5},
-  {"nick" : "Robi", "name" : "Óbíró Róbert", "table":10, "place":7},
-  {"nick" : "Zsóka", "name" : "Óbíróné Balás Zsuzsanna", "table":10, "place":8},
-  {"nick" : "Elvike", "name" : "Balikóné Balás Elvira", "table":10, "place":9},
-  {"nick" : "Zoli", "name" : "Balikó Zoltán", "table":10, "place":10},
-
+  {"nick" : "Bálintka", "name" : "Balás Bálint", "table":14, "place":1},
+  {"nick" : "Etelka", "name" : "Dr. Balásné Rozs Etelka", "table":14, "place":2},
+  {"nick" : "Bandi", "name" : "Balás Endre", "table":14, "place":3},
+  {"nick" : "Ei Mama", "name" : "Balás Endréné", "table":14, "place":4},
+  {"nick" : "Papa", "name" : "Balás Endre", "table":14, "place":5},
+  {"nick" : "Robi", "name" : "Óbíró Róbert", "table":14, "place":7},
+  {"nick" : "Zsóka", "name" : "Óbíróné Balás Zsuzsanna", "table":14, "place":8},
+  {"nick" : "Elvike", "name" : "Balikóné Balás Elvira", "table":14, "place":9},
+  {"nick" : "Zoli", "name" : "Balikó Zoltán", "table":14, "place":10},
+  {"nick" : "Edit", "name" : "Miklós Edit", "table":13, "place":1},
+  {"nick" : "Tomi", "name" : "Miklós Tamás", "table":13, "place":2},
+  {"nick" : "Atitiszi", "name" : "Kutas Attila", "table":13, "place":3},
+  {"nick" : "Sziszi", "name" : "Tamás Szilárd", "table":13, "place":4},
+  {"nick" : "Andi", "name" : "Tamás Szilárdné", "table":13, "place":5},
+  {"nick" : "Kriszti", "name" : "Dr. Varga Tamásné", "table":13, "place":6},
+  {"nick" : "Jembi", "name" : "Dr. Varga Tamás", "table":13, "place":7},
+  {"nick" : "Géza bácsi", "name" : "Magyarfalvi Géza", "table":13, "place":8},
+  {"nick" : "Kriszti néni", "name" : "Magyarfalvi Krisztina", "table":13, "place":9},
+  {"nick" : "Szabina", "name" : "Imre Szabina", "table":12, "place":1},
+  {"nick" : "Ricsi", "name" : "Potondi Richárd", "table":12, "place":2},
+  {"nick" : "Anna", "name" : "Pataki Anna", "table":12, "place":3},
+  {"nick" : "Viki", "name" : "Jakab Viktória", "table":12, "place":4},
+  {"nick" : "Henrik", "name" : "Seres Henrik", "table":12, "place":5},
+  {"nick" : "Dávid", "name" : "Pataki Dávid", "table":12, "place":7},
+  {"nick" : "Marci", "name" : "Pápai Márton", "table":12, "place":8},
+  {"nick" : "Kinga", "name" : "Ohn Kinga", "table":12, "place":9},
+  {"nick" : "Dárius", "name" : "Farkas Dárius", "table":12, "place":10},
+  {"nick" : "Szabi", "name" : "Kiss Szabolcs", "table":11, "place":1},
+  {"nick" : "Gréti", "name" : "Farkas Gréti", "table":11, "place":2},
+  {"nick" : "Csani", "name" : "Kiss Csanád", "table":11, "place":3},
+  {"nick" : "Eszti", "name" : "Kissné Magyarfalvi Eszter", "table":11, "place":4},
+  {"nick" : "Annamari", "name" : "Vörös Annamária", "table":11, "place":5},
+  {"nick" : "Kristóf", "name" : "Kéri Kristóf", "table":11, "place":6},
+  {"nick" : "Kozi", "name" : "Kozák Bence", "table":11, "place":7},
+  {"nick" : "Valentin", "name" : "Ács Valentin", "table":11, "place":8},
+  {"nick" : "Dalma", "name" : "Gelencsér Dalma", "table":11, "place":9},
+  {"nick" : "Barnus", "name" : "Vissi Barnabás", "table":11, "place":10},
+  {"nick" : "Milán", "name" : "Fazekas Milán", "table":10, "place":1},
+  {"nick" : "Palkó", "name" : "Palkovits István", "table":10, "place":2},
+  {"nick" : "Zsófi", "name" : "Tamás Zsófia", "table":10, "place":3},
+  {"nick" : "Dóri", "name" : "Börcsök Dóra", "table":10, "place":4},
+  {"nick" : "Dávid", "name" : "Bakos Dávid", "table":10, "place":5},
+  {"nick" : "Bálint", "name" : "Kozma Bálint", "table":10, "place":6},
+  {"nick" : "Lóci", "name" : "Varga Lőrinc", "table":10, "place":7},
+  {"nick" : "Dóri", "name" : "Tonács Dóra", "table":10, "place":8},
+  {"nick" : "Gréti", "name" : "Harmati Gréta", "table":10, "place":9},
+  {"nick" : "Zalán", "name" : "Uzonyi Zalán", "table":10, "place":10},
   {"nick" : "Donát", "name" : "Gerencsér Donát", "table":9, "place":1},
   {"nick" : "Szotyi", "name" : "Tóbel Szonja", "table":9, "place":2},
   {"nick" : "Szabcsi", "name" : "Tóbel Szabina", "table":9, "place":3},
@@ -68,18 +62,15 @@ names = [
   {"nick" : "Lilike", "name" : "Pelcz Lili", "table":9, "place":8},
   {"nick" : "Zsani", "name" : "Beke Zsanett", "table":9, "place":9},
   {"nick" : "Réka", "name" : "Máté Réka", "table":9, "place":10},
-
-  {"nick" : "Milán", "name" : "Fazekas Milán", "table":8, "place":1},
-  {"nick" : "Palkó", "name" : "Palkovits István", "table":8, "place":2},
-  {"nick" : "Zsófi", "name" : "Tamás Zsófia", "table":8, "place":3},
-  {"nick" : "Dóri", "name" : "Börcsök Dóra", "table":8, "place":4},
-  {"nick" : "Dávid", "name" : "Bakos Dávid", "table":8, "place":5},
-  {"nick" : "Bálint", "name" : "Kozma Bálint", "table":8, "place":6},
-  {"nick" : "Lóci", "name" : "Varga Lőrinc", "table":8, "place":7},
-  {"nick" : "Dóri", "name" : "Tonács Dóra", "table":8, "place":8},
-  {"nick" : "Gréti", "name" : "Harmati Gréta", "table":8, "place":9},
-  {"nick" : "Zalán", "name" : "Uzonyi Zalán", "table":8, "place":10},
-
+  {"nick" : "Bálintka", "name" : "Szinte Bálint", "table":8, "place":1},
+  {"nick" : "Márkiboy", "name" : "Vörös Márk", "table":8, "place":2},
+  {"nick" : "Bácska", "name" : "Bácskai Bence", "table":8, "place":3},
+  {"nick" : "Benő", "name" : "Kelemen Bence", "table":8, "place":4},
+  {"nick" : "Réka", "name" : "Faragó Réka", "table":8, "place":5},
+  {"nick" : "Nóri", "name" : "Csiszár Nóra", "table":8, "place":7},
+  {"nick" : "Csabi", "name" : "Matkó Csaba", "table":8, "place":8},
+  {"nick" : "Ricsi", "name" : "Süli Richárd", "table":8, "place":9},
+  {"nick" : "Fanni", "name" : "Barna Fanni", "table":8, "place":10},
   {"nick" : "Ferki", "name" : "Nagy Ferenc", "table":7, "place":1},
   {"nick" : "Ágó", "name" : "Nagy Ágoston", "table":7, "place":2},
   {"nick" : "Kica", "name" : "Sólyom Katalin", "table":7, "place":3},
@@ -92,8 +83,8 @@ names = [
   {"nick" : "Dani", "name" : "Bús Dániel", "table":7, "place":10},
   {"nick" : "Zsuzsa néni", "name" : "Fazekas Gáspárné", "table":6, "place":2},
   {"nick" : "Gazsi bácsi", "name" : "Fazekas Gáspár", "table":6, "place":3},
-  {"nick" : "Luca", "name" : "Jászberényi Luca", "table":6, "place":8},
-  {"nick" : "Anthony", "name" : "Anthony Dill", "table":6, "place":7},
+  {"nick" : "Luca", "name" : "Jászberényi Luca", "table":6, "place":4},
+  {"nick" : "Anthony", "name" : "Anthony Dill", "table":6, "place":5},
   {"nick" : "Imre bácsi", "name" : "Tarr Imre", "table":6, "place":9},
   {"nick" : "Kati néni", "name" : "Tarrné Naszádos Katalin", "table":6, "place":10},
   {"nick" : "István", "name" : "Dr. Nagy István", "table":5, "place":1},
@@ -180,13 +171,7 @@ var selectTable = function(a,b) {
     document.getElementById("selectedNick").innerHTML = res[0]["nick"]
     document.getElementById("selectedName").innerHTML = res[0]["name"]
     document.getElementById("selectedTable").innerHTML = a
-    if (a === 12 || a === 14) {
-      document.getElementById("selectedPlace").innerHTML = specTablePl(b)
-
-    } else {
-
-      document.getElementById("selectedPlace").innerHTML = b
-    }
+    document.getElementById("selectedPlace").innerHTML = b
   };
 
 }
@@ -195,9 +180,7 @@ room = document.getElementById("room")
 for (var i = 14; i > 0; i--) {
   currentTable = document.createElement("div")
   currentTable.classList.add("myTable")
-  currentTableCont = document.getElementById("t"+i)
-
-  currentTableCont.appendChild(currentTable)
+  room.appendChild(currentTable)
 
   currentTableNum = document.createElement("div")
   currentTableNum.classList.add("tableNum")
@@ -205,60 +188,16 @@ for (var i = 14; i > 0; i--) {
   currentTable.appendChild(currentTableNum)
 
   currentTablePlaces = document.createElement("div")
-  if (i == 12 || i == 14) {
-    currentTablePlaces.classList.add("tablePlacesSpec")
-
-  } else {
-    currentTablePlaces.classList.add("tablePlaces")
-  }
+  currentTablePlaces.classList.add("tablePlaces")
   currentTable.appendChild(currentTablePlaces)
-
   for (var j = 1; j < 11; j++) {
     currentPlace = document.createElement("div")
     currentPlace.classList.add("place")
-    if (i == 12 || i == 14) {
-      currentPlace.innerHTML = specTablePl(j)
-    } else {
-      currentPlace.innerHTML = j
-    }
-
+    currentPlace.innerHTML = j
     currentPlace.id = "t" + i + "p" + j
     currentTablePlaces.appendChild(currentPlace)
     currentPlace.onclick = selectTable(i,j)
   }
-}
-
-function specTablePl(num) {
-  if (num == 1)
-    return 1
-
-  if (num == 2)
-    return 6
-
-  if (num == 3)
-    return 2
-
-  if (num == 4)
-    return 7
-
-  if (num == 5)
-    return 3
-
-  if (num == 6)
-    return 8
-
-  if (num == 7)
-    return 4
-
-  if (num == 8)
-    return 9
-
-  if (num == 9)
-    return 5
-
-  if (num == 10)
-    return 10
-
 }
 
 function search() {
@@ -308,11 +247,7 @@ function search() {
   document.getElementById("selectedNick").innerHTML = nick
   document.getElementById("selectedName").innerHTML = name
   document.getElementById("selectedTable").innerHTML = res[0]["table"]
+  document.getElementById("selectedPlace").innerHTML = res[0]["place"]
 
-  if(res[0]["table"] === 12 || res[0]["table"] === 14){
-    document.getElementById("selectedPlace").innerHTML = specTablePl(res[0]["place"])
-  } else {
-    document.getElementById("selectedPlace").innerHTML = res[0]["place"]
-  }
 
 }
