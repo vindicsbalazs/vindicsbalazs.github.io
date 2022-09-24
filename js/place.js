@@ -314,5 +314,5 @@ function search() {
   } else {
     document.getElementById("selectedPlace").innerHTML = res[0]["place"]
   }
-
+//test
 }
