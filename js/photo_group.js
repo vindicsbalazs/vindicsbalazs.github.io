@@ -126,15 +126,6 @@ groups = [
     ]
   },
   {
-    "groupName": "Kovács család",
-    "groupList":[
-      {"nick" : "Verocska", "name" : "Kovács Vera Anikó"},
-      {"nick" : "Karina", "name" : "Kovács Karina"},
-      {"nick" : "Máté", "name" : "Nagypál Máté"},
-      {"nick" : "Kíra", "name" : "Kovács Kíra Diána"}
-    ]
-  },
-  {
     "groupName": "Tóbel család",
     "groupList":[
       {"nick" : "Donát", "name" : "Gerencsér Donát"},
